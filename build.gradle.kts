@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.snezhniy"
-version = "1.0-SNAPSHOT"
+version = "0.0.2"
 
 application {
     mainClass.set("net.snezhniy.AppKt")
