@@ -48,7 +48,7 @@ fun Obr(arr: Collection<Any>) {
 }
 
 fun main() {
-    print("Укадите путь до текстового файла: ")
+    print("Укажите путь до текстового файла: ")
     val input = readLine().orEmpty().trim()
     val f = File(input)
 
