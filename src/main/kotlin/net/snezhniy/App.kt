@@ -36,7 +36,7 @@ fun Obr(arr: Collection<Any>) {
     arr.forEachIndexed { index, elem ->
         var msg = ""
         if (elem is Prosto) {
-            msg += "#${template.format(index + 1)} | kolSlov: ${elem.kolSlov()}, kolSimvolov: ${elem.kolSimvolov()}"
+            msg += "#${template.format(index + 1)} | kolSlov: ${elem.kolSlov}, kolSimvolov: ${elem.kolSimvolov}"
         }
 
         if (elem is Slogno) {

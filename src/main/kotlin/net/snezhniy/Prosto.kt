@@ -7,13 +7,9 @@
 package net.snezhniy
 
 open class Prosto(val s: String) {
-    fun kolSimvolov(): Int {
-        return s.length
-    }
+    val kolSimvolov: Int
+        get() = s.length
 
-    fun kolSlov(): Int {
-        return s.split("\\s+".toRegex()).size
-    }
-
-
+    val kolSlov: Int
+        get() = s.split("\\s+".toRegex()).size
 }
